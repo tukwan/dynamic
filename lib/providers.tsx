@@ -36,41 +36,8 @@ export default function Providers({ children }: { children: React.ReactNode }) {
         environmentId: projectId,
         walletConnectors: [EthereumWalletConnectors, SolanaWalletConnectors],
         initialAuthenticationMode: "connect-only",
-        // termsOfServiceUrl: "test",
+        termsOfServiceUrl: "www.termsOfServiceUrlURL.com",
         appName: "Dapp",
-        // policiesConsentInnerComponent: (
-        //   <div>
-        //     <p>
-        //       By checking this box, you agree to our{" "}
-        //       <a
-        //         href="https://www.dynamic.xyz/terms-of-service"
-        //         target="_blank"
-        //       >
-        //         Terms of Service
-        //       </a>{" "}
-        //       and{" "}
-        //       <a href="https://www.dynamic.xyz/privacy-policy" target="_blank">
-        //         Privacy Policy
-        //       </a>
-        //       .
-        //     </p>
-        //   </div>
-        // ),
-
-        // overrides: {
-        //   views: [
-        //     {
-        //       type: 'wallet-list',
-        //       tabs: {
-        //         items: [
-        //           {
-        //             label: { text: 'My own tab' },
-        //           }
-        //         ]
-        //       }
-        //     }
-        //   ]
-        // }
       }}
       locale={locale}
     >
